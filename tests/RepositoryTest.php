@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace JoBins\Meilisearch\Tests;
 
 use PHPUnit\Framework\TestCase;
 

@@ -26,7 +26,7 @@ class FilterTest extends TestCase
         })->toBase();
 
         $filter =  <<<'FILTER'
-        (deleted_at IS NULL AND publish_status = Yes AND delete_status = NO AND (admin_verification_status = approved OR admin_verification_status IS NULL))
+        (deleted_at IS NULL AND publish_status = "Yes" AND delete_status = "NO" AND (admin_verification_status = "approved" OR admin_verification_status IS NULL))
         FILTER;
 
         $this->assertEquals($filter, $query);

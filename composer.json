@@ -1,5 +1,19 @@
 {
     "name": "jobins/meilisearch",
+    "authors": [
+        {
+            "name": "Bedram Tamang",
+            "email": "tmgbedu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "8.0|^9.0|^10.0|^11.0|^12.0",
+        "illuminate/database": "^8.0|^9.0|^10.0|^11.0|^12.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    },
     "autoload": {
         "psr-4": {
             "JoBins\\Meilisearch\\": "src",
@@ -12,5 +26,5 @@
                 "JoBins\\Meilisearch\\ServiceProvider"
             ]
         }
-    }
+    },
 }
